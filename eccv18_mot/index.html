@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DMAN</title>
+
+<style media="screen" type="text/css">
+body
+{
+  border: 0pt none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0pt;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0pt;
+  padding: 0pt;
+  vertical-align: baseline;
+}
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 1080px;
+  font-family: Times New Roman, Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #fdfdfd;
+}
+</style>
+</head>
+
+<body>
+<h4 align="center"><i><font size="1" face="Palatino Linotype">European Conference on Computer Vision (ECCV) 2018</font></i></h4>
+
+<table align="center">
+<td align="center">
+<h1>Online Multi-Object Tracking with Dual Matching Attention Networks</h1>
+<h3>
+<font size="3">Ji Zhu</font></a><sup><font size="2">1,2</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="3">Hua Yang</font></a><sup><font size="2">1</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="3">Nian Liu</font></a><sup><font size="2">3</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="3">Minyoung Kim</font></a><sup><font size="2">4</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="3">Wenjun Zhang</font></a><sup><font size="2">1</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="3">Ming-Hsuan Yang</font></a><sup><font size="2">5,6</font></sup>&nbsp;&nbsp;&nbsp;&nbsp;
+</h3>
+
+<br>
+<sup><font size="2">1</font></sup>							
+<b><a><font size="3">Shanghai Jiao Tong University</font></a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+<sup><font size="2">2</sup>							
+<b><a><font size="3">Visbody Inc</font></a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+<sup><font size="2">3</sup>							
+<b><a><font size="3">Northwestern Polytechnical University</font></a></b>
+<sup><font size="2">4</sup>	
+<br>						
+<b><a><font size="3">Massachusetts Institute of Technology</font></a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+<sup><font size="2">5</sup>							
+<b><a><font size="3">University of California, Merced</font></a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+<sup><font size="2">6</sup>							
+<b><a><font size="3">Google Inc</font></a></b>
+</td>
+</table>
+
+<br>
+<br>
+<table align="center">
+<tr>
+	<td align="center"><img border=0 height=466 width=960 src="DMAN.png"></td>
+</tr>
+</table>
+
+<br>
+<h2><p><font size="5"><b>Abstract</b></font></p></h2>
+<hr/>
+<p><font size="3" face="Palatino Linotype">In this paper, we propose an online Multi-Object Tracking (MOT) approach which integrates the merits of single object tracking and data association methods in a unied framework to handle noisy detections and frequent interactions between targets. Specically, for applying single object tracking in MOT, we introduce a cost-sensitive tracking loss based on the state-of-the-art visual tracker, which encourages the model to focus on hard negative distractors during online learning. For data association, we propose Dual Matching Attention Networks (DMAN) with both spatial and temporal attention mechanisms. The spatial attention module generates dual attention maps which enable the network to focus on the matching patterns of the input image pair, while the temporal attention module adaptively allocates different levels of attention to dfferent samples in the tracklet to suppress noisy observations. Experimental results on the MOT benchmark datasets show that the proposed algorithm performs favorably against both online and offline trackers in terms of identity-preserving metrics.</font></p>
+
+<br>
+<h2><p><font size="5"><b>Downloads</b></font></p></h2>
+<hr/>
+<div align="left">
+		<table>						
+		<tr align="left">
+		<td>
+		<font size="3"><a href="https://arxiv.org/abs/1902.00749">[DMAN.pdf]</font></a>
+		</td>
+		<td>
+		: The paper.
+		</td>	
+		</tr>	
+		
+		<tr align="left">
+		<td>
+		<font size="3"><a href="poster.pdf">[Poster.pdf]</font></a>
+		</td>
+		<td>
+		: The poster.
+		</td>	
+		</tr>
+												
+		<tr align="left">
+		<td>
+		<font size="3"><a href="https://github.com/jizhu1023/DMAN_MOT">[Code.zip]</font></a>
+		</td>
+		<td>
+		: Available on Github.
+		</td>	
+		</tr>
+		</table>
+</div>
+<br>
+<br>
+
+<h2><p><font size="5" color="black"><b>BibTex</b>&nbsp(DOI)</p></h2>	
+<hr/>								
+<font size="3">
+@inproceedings{zhu-eccv18-DMAN,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;author = {Zhu, Ji and Yang, Hua and Liu, Nian and Kim, Minyoung and Zhang, Wenjun and Yang, Ming-Hsuan},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;title = {Online Multi-Object Tracking with Dual Matching Attention Networks},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;booktitle = {European Conference on Computer Vision},<br>				
+&nbsp;&nbsp;&nbsp;&nbsp;year = {2018},<br>
+&nbsp;&nbsp;}
+</font>
+
+</body>
+
+</html>
